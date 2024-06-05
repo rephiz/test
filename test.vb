@@ -136,7 +136,7 @@ Module Module1
         'Wc.Filtro = "BuyerPartyID eq '" & Id_NoLogo & "' and ID eq '99480' "
         Wc.Ordine = "ID DESC"
 
-        Wc_Btd.Credenziali = New NetworkCredential(My.Settings.AUTH_USERNAME, My.Settings.AUTH_PASSWORD)
+        Wc_Btd.Credenziali = New NetworkCredential(My.Settings.AUTH_USERNAME, "Reda2005")
         Wc_Btd.Server = My.Settings.SERVER
         Wc_Btd.Collection = "EMailBTDReferenceCollection"
 
